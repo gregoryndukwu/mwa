@@ -1,8 +1,10 @@
-const express = require("express");
+const express= require("express");
+const app= express();
+app.get("/", function(req,res){
+    res.write("Testando");
+    res.end();
+})
+app.listen(3000); // Hardcoded more than one place :(
+console.log("Listening to port 3000"); // Another place :(
 
-const app = express();
-
-app.set("port",3000);
-app.listen(app.get("port"));
-console.log("listen to the port",app.get("port"));
 

@@ -1,0 +1,16 @@
+{
+  "name": "meangame",
+  "version": "1.0.0",
+  "description": "\"Mean Game\"",
+  "main": "app29.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app29.js"
+  },
+  "author": "Gregory Ndukwu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  }
+}
