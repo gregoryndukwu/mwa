@@ -1,0 +1,14 @@
+1- To your mean Games application (the one with the static page) add the ability to get all games from json file. (the json file can be found in the resources folder).
+
+2- Write an express application that returns the result of adding two numbers provided by the user. One number is given as a path parameter the second number as a queryString.
+
+3- Create a school.json file. Then add the following json objects to the file (name, gpa):
+
+John, 3.3
+James, 2.5
+Jasmin, 3.8
+
+4- Write an express application that returns all students from the school,json file, and returns one student. The application uses the following URLs:
+
+/api/students GET (to get all students)
+/api/students/2 GET (to return the 2ns student)
