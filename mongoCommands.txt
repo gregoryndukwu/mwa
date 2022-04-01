@@ -1,0 +1,63 @@
+//Create Collection
+
+db.createCollection("collection name")
+
+//Insert Date Collection
+
+db.technology.insertOne
+(
+… {
+… name : "MongoDB",
+… role : "Database"
+… }
+… )
+
+//Seleciona Tudo Collection
+
+db.technology.find();
+
+Insert multiple documents at once
+
+db.technology.insertMany([{name : "Express", role: "Web 
+application server"},
+… {name : "AngularJS", role: "Front
+-end framework"},
+… {name : "Node.js", role: "Platform"}]);
+
+List based on document id in current collection
+
+db.technology.find({"_id"
+: ObjectId("5f9aef68980db44d37c1aaed
+"
+)});
+
+select usanto comando like
+
+db.technology.find({"name": /o/});
+
+
+List based on name in current collection
+
+db.technology.find({"name": AngularJS")});
+
+Selecionando pelo ID e exibindo dado especifico
+
+db.technology.find({"_id": ObjectId("6246454caf08b2b1cab59efa")},{"name":true,"_id":false});
+
+Update 1 registro
+
+db.technology.updateOne({"name":"AngularJS"},{$set:{"name":"Angular"}});
+
+Update Many
+
+db.technology.updateMany({},{$set:{"language":"JavaScript"}},{multi:true});
+
+deleteOne
+
+db.technology.deleteOne( { "name" : "Express" })
+
+DeleteMany 
+
+db.technology.deleteMany( {})
+
+
