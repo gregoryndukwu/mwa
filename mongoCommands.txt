@@ -60,4 +60,15 @@ DeleteMany
 
 db.technology.deleteMany( {})
 
+************************************************
+Create DB
+use SchoolDB
+
+Create Collections
+db.createCollection("students")
+
+John, 3.1
+James, 2.8
+Jasmin, 3.5
+
 
