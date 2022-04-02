@@ -4,6 +4,7 @@
   "description": "Express App MeanGames connected to Mongoose",
   "main": "app02.js",
   "scripts": {
+    "serve":"nodemon",
     "start": "node app02.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,5 +15,8 @@
     "express": "^4.17.3",
     "mongodb": "^4.4.1",
     "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

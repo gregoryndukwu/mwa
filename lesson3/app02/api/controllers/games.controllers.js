@@ -19,7 +19,7 @@ const getAll = function (req, res) {
     Game.find().skip(offset).limit(count).exec(function (err, game) {
         console.log("Found games", game.length);
         res.json(game);
-    });
+    }); 
 }
 
 
