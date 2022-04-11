@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let job of jobs">
+    <button (click)="deleteJob(job._id)">x Delete</button>
+    <a routerLink="/job/{{ job._id }}">
+      {{ job.title }}
+    </a>
+  </li>
+</ul>

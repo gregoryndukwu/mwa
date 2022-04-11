@@ -1,0 +1,34 @@
+<p>add-team works!</p>
+<form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label>
+      Name:
+      <input formControlName="name" placeholder="name" />
+    </label>
+  </div>
+  <div>
+    <label>
+      Championships:
+      <input
+        formControlName="championships"
+        type="number"
+        placeholder="championships"
+      />
+    </label>
+  </div>
+  <!--
+  <div>
+    <label>
+      Name Coahe:
+      <input formControlName="namecoache" placeholder="name coache" />
+    </label>
+  </div>
+  <div>
+    <label>
+      Position:
+      <input formControlName="position" type="string" placeholder="position" />
+    </label>
+  </div>
+-->
+  <button>Add New Team</button>
+</form>

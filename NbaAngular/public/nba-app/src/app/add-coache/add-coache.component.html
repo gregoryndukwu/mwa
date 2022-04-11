@@ -1,0 +1,16 @@
+<br />
+<form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label>
+      Name Coache:
+      <input formControlName="namecoache" placeholder="name coache" />
+    </label>
+  </div>
+  <div>
+    <label>
+      Position:
+      <input formControlName="position" type="string" placeholder="position" />
+    </label>
+  </div>
+  <button>Add New Coache</button>
+</form>

@@ -1,0 +1,19 @@
+  {
+        "name": "Chicago Bulls",
+        "Championships": 6,
+        "coaches": [
+            {
+                "name": "Phil Jackson",
+                "position": "Head coach"
+            },
+                        {
+                "name": "Jerry Sloan",
+                "position": "Head coach"
+            },
+            {
+                "name": "Tex Winter",
+                "position": "Assistant coach"
+            }
+            
+        ]
+  }

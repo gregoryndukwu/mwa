@@ -1,0 +1,9 @@
+this.gameService.getGmes().subscribe(
+{next: games => {
+this.games= games;
+},
+error:err -> {
+console.log("Service Error:",err);
+},
+complete:() => {
+consol.log("Done");

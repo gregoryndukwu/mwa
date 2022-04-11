@@ -1,0 +1,7 @@
+Install Angular CLI (Command Line Interface)
+
+npm i --g @angular/cli
+
+Create our first Angular application using CLI
+
+ng new first-app --skip-git=true --skip-tests=true –-directory public\first-app –-defaults=true

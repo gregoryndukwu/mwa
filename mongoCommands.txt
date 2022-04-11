@@ -72,3 +72,6 @@ James, 2.8
 Jasmin, 3.5
 
 
+http://localhost:3000/api/games?count=2
+
+

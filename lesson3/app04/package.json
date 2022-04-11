@@ -1,0 +1,22 @@
+{
+  "name": "app01",
+  "version": "1.0.0",
+  "description": "Express App MeanGames connected to Mongoose",
+  "main": "app04.js",
+  "scripts": {
+    "serve":"nodemon",
+    "start": "node app04.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gregory Ndukwu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

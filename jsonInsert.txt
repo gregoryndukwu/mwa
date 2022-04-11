@@ -1,0 +1,8 @@
+{
+    "title": "System Analista",
+    "year": "$10000",
+    "location": "Iowa",
+    "description": "I am the best",
+    "experience": "2",
+    "postDate": "03/24/2022"
+}

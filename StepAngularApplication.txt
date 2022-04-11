@@ -1,0 +1,3 @@
+1 -> Adicionar os arquivos css, do meanGames na pasta assets.
+2 -> ng generate component navigation ( Criar componente navigation)
+3 -> ng generate component footer (Lesson5.pdf pagina 8)

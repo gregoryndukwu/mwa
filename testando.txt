@@ -1,0 +1,8 @@
+{
+	"name": "Lakers",
+	"Championships": 17,
+	"coaches": {
+		"name": "John Kundla",
+		"position": "Head coach"
+	}
+}
