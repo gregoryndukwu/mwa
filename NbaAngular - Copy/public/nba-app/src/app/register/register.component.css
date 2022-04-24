@@ -1,0 +1,38 @@
+label{
+    display: block;
+    width: 156px;
+    cursor: pointer;
+    padding-right: 6px;
+    padding-bottom: 1px;  
+    margin-left: 50px;;
+}
+
+button {
+    border:5px solid #25692A;
+    border-radius:4px;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 156px;
+    
+    }
+.div{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #25692A;
+    min-height: 50px;
+    text-align: center;
+}    
+
+.div2{
+    margin-top: 20px;
+    width: 100%;
+    background-color: #da3818;
+    min-height: 50px;
+    text-align: center;
+}  

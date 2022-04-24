@@ -1,0 +1,58 @@
+
+
+label{
+  color: rgba(0, 0, 0, 0.282);
+  padding-right: 2px;
+}
+
+body{
+  color: rgba(0, 0, 0, 0.282);
+  padding-right: 2px;
+}
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+button {
+  border:5px solid #25692A;
+  border-radius:4px;
+  display:inline-block;
+  cursor:pointer;
+  font-family:Verdana;
+  font-weight:bold;
+  font-size:13px;
+  padding:6px 10px;
+  text-decoration:none;
+  margin-left: 10px;
+  width: 170px;
+  
+  }
+
+#btnlogin {
+  border:5px solid #25692A;
+  border-radius:4px;
+  display:inline-block;
+  cursor:pointer;
+  font-family:Verdana;
+  font-weight:bold;
+  font-size:13px;
+  padding:6px 10px;
+  text-decoration:none;
+  margin-left: 10px;
+  width: 120px;
+  
+  }
+  label{
+      color: white;
+      padding-right: 2px;
+      margin-left: 10px;
+      text-decoration: solid;
+      font-size: 20px ;
+    }
+    #menu{
+      width: 50%;
+      display: inline-block;
+    }
+   
+    input{
+     width: 200px; 
+     display: inline;
+     margin-left: 10px;
+    }

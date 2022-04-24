@@ -1,0 +1,49 @@
+<div id="success" class="div">
+  <p>User created successfully</p>
+</div>
+<div id="error" class="div2">
+  <p>Error creating user</p>
+</div>
+<br /><br />
+<div>
+  <p>{{ successMessage }}</p>
+</div>
+<div>
+  <p>{{ errorMessage }}</p>
+</div>
+<form [formGroup]="addForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label>
+      Name:
+      <input formControlName="name" placeholder="name" />
+    </label>
+  </div>
+  <div>
+    <label>
+      UserName:
+      <input formControlName="username" placeholder="Username" />
+    </label>
+  </div>
+  <div>
+    <label>
+      Password:
+      <input
+        formControlName="password"
+        type="password"
+        placeholder="Password"
+      />
+    </label>
+  </div>
+  <div>
+    <label>
+      Repet Password:
+      <input
+        formControlName="password"
+        type="password"
+        placeholder="Repet Password"
+      />
+    </label>
+  </div>
+
+  <button>Create New User</button>
+</form>

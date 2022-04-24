@@ -1,0 +1,45 @@
+<br />
+<div class="" *ngIf="nba != null">
+  Name : {{ nba.name }}<br />
+  Championships : {{ nba.Championships }}<br /><br />
+
+  <ul>
+    <li *ngFor="let coach of nba.coaches">
+      <table>
+        <tr>
+          <td>Coache Name</td>
+          <td>Position</td>
+          <td>Delete Coache Press Button</td>
+        </tr>
+        <tr>
+          <td>{{ coach.name }}</td>
+          <td>{{ coach.position }}</td>
+          <td>
+            <!--
+            <button routerLink="/addCoache/{{ coach._id }}">
+              Delete Coache
+            </button>
+          -->
+            <button (click)="deleteCoache(coach._id, nba._id)">x Delete</button>
+            <a routerLink="/nba/{{ coach._id }}/{{ nba._id }}">
+              {{ coach.name }}
+            </a>
+          </td>
+        </tr>
+      </table>
+      <br />
+    </li>
+  </ul>
+</div>
+<br />
+<br />
+<button routerLink="/addCoache/{{ nba._id }}">Add Coache</button>
+<button routerLink="/updateTeam/{{ nba._id }}">Update Nba Team</button>
+<!--
+<div>
+  <button (click)="addCoache(nba._id)">Add Coache</button>
+  <a routerLink="/nba/{{ nba._id }}">
+    {{ nba.name }}
+  </a>
+</div>
+-->

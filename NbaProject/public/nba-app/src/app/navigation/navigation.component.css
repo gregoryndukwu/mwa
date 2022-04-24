@@ -1,0 +1,67 @@
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+button {
+    border:5px solid #25692A;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+    margin-left: 10px;
+    width: 170px;
+    
+    }
+#login2{
+    width: 600px;
+    margin-top: 5%;
+    float: right;
+    margin-top: -35px;
+    background-color: blueviolet;
+
+}
+#menu{
+    width: 49%;
+    display: inline-block;
+
+  }
+  #menu2{
+    width: 49%;
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  #login{
+      
+    width: 40%;
+    display: inline-block;
+         
+    
+  }
+#btnlogin {
+    border:5px solid #25692A;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+    margin-left: 10px;
+    width: 120px;
+    
+    }
+    input{
+      width: 100px; 
+      display: inline;
+      margin-left: 10px;
+     }
+     label{
+      color: white;
+      padding-right: 2px;
+      margin-left: 10px;
+      text-decoration: solid;
+      font-size: 20px ;
+    }

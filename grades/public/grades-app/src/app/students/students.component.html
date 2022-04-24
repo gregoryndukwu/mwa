@@ -1,0 +1,9 @@
+<h1>test</h1>
+<ul>
+  <li *ngFor="let student of students">
+    <button (click)="deleteStudent(student._id)">x Delete</button>
+    <a routerLink="/student/{{ student._id }}">
+      {{ student.student_id }}{{ student.class_id }}
+    </a>
+  </li>
+</ul>

@@ -1,13 +1,13 @@
 {
   "name": "jobsearch",
   "version": "1.0.0",
-  "description": "\"Mid Term Exam\"",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "author": "\"Gregory Ndukwu\"",
+  "author": "Gregory Ndukwu",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.0",

@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-require("../data/job-model");
+require("./job-model.js");
 
 mongoose.connect(process.env.DB_URL);
 mongoose.connection.on("connected", function () {

@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let nba of nbas">
+    <button (click)="deleteNba(nba._id)">x Delete</button>
+    <a routerLink="/nba/{{ nba._id }}">
+      {{ nba.name }}
+    </a>
+  </li>
+</ul>

@@ -1,0 +1,35 @@
+<div id="login">
+  <form [formGroup]="loginForm" class="form-inline" *ngIf="!authorized">
+    <label>E-mail: </label>
+    <input
+      formControlName="username"
+      class="form-control mr-sm-2"
+      type="text"
+      placeholder="Username"
+      aria-label="username"
+      #email
+    />
+    <label>Password</label>
+    <input
+      formControlName="password"
+      class="form-control mr-sm-2"
+      type="password"
+      placeholder="password"
+      aria-label="password"
+      #password
+    />
+    <button (click)="onLogin()" type="submit" id="btnlogin">login</button>
+  </form>
+  <div *ngIf="authorized === true">
+    <span style="color: rgb(238, 224, 224); padding-right: 10px"
+      >Welcome! {{ name }}</span
+    >
+    <button
+      (click)="onLogout()"
+      class="btn btn-outline-success my-2 my-sm-0"
+      type="submit"
+    >
+      logout
+    </button>
+  </div>
+</div>
